@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on yiyuan的博客</title>
+        <link>https://example.com/post/</link>
+        <description>Recent content in Posts on yiyuan的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 15 Jul 2025 18:00:52 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>建站通告</title>
+        <link>https://example.com/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</link>
+        <pubDate>Tue, 15 Jul 2025 18:00:52 +0800</pubDate>
+        
+        <guid>https://example.com/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</guid>
+        <description>&lt;p&gt;本博客记录了我在学习编程、计算机方面的笔记，以及一些个人感悟。&lt;/p&gt;
+&lt;h2 id=&#34;附录&#34;&gt;附录
+&lt;/h2&gt;
+&lt;h3 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h3&gt;
+&lt;h3 id=&#34;版权信息&#34;&gt;版权信息
+&lt;/h3&gt;
+&lt;p&gt;本文原载于 &lt;a class=&#34;link&#34; href=&#34;https://blog.reincarnatey.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;reincarnatey.net&lt;/a&gt;，遵循 CC BY-NC-SA 4.0 协议，复制请保留原文出处。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
