@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>yiyuan的博客</title>
-        <link>https://example.com/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on yiyuan的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 15 Jul 2025 18:00:52 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 18:00:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于</title>
-        <link>https://example.com/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;h2 id=&#34;关于我&#34;&gt;&lt;a href=&#34;#%e5%85%b3%e4%ba%8e%e6%88%91&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;关于我
 &lt;/h2&gt;
 &lt;p&gt;我是&lt;a class=&#34;link&#34; href=&#34;https://github.com/yiyuan114514&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;一元钱&lt;/a&gt;，一名热爱编程的学生。&lt;/p&gt;
-&lt;h2 id=&#34;联系方式&#34;&gt;联系方式
+&lt;h2 id=&#34;联系方式&#34;&gt;&lt;a href=&#34;#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;联系方式
 &lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;邮箱：&lt;a class=&#34;link&#34; href=&#34;mailto:yiyuan114514@outlook.com&#34; &gt;yiyuan114514@outlook.com&lt;/a&gt;&lt;/li&gt;
@@ -25,16 +25,16 @@
         </item>
         <item>
         <title>建站通告</title>
-        <link>https://example.com/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</link>
+        <link>http://localhost:1313/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</link>
         <pubDate>Tue, 15 Jul 2025 18:00:52 +0800</pubDate>
         
-        <guid>https://example.com/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</guid>
+        <guid>http://localhost:1313/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</guid>
         <description>&lt;p&gt;本博客记录了我在学习编程、计算机方面的笔记，以及一些个人感悟。&lt;/p&gt;
-&lt;h2 id=&#34;附录&#34;&gt;附录
+&lt;h2 id=&#34;附录&#34;&gt;&lt;a href=&#34;#%e9%99%84%e5%bd%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;附录
 &lt;/h2&gt;
-&lt;h3 id=&#34;参考文献&#34;&gt;参考文献
+&lt;h3 id=&#34;参考文献&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参考文献
 &lt;/h3&gt;
-&lt;h3 id=&#34;版权信息&#34;&gt;版权信息
+&lt;h3 id=&#34;版权信息&#34;&gt;&lt;a href=&#34;#%e7%89%88%e6%9d%83%e4%bf%a1%e6%81%af&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;版权信息
 &lt;/h3&gt;
 &lt;p&gt;本文原载于 &lt;a class=&#34;link&#34; href=&#34;https://blog.reincarnatey.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;reincarnatey.net&lt;/a&gt;，遵循 CC BY-NC-SA 4.0 协议，复制请保留原文出处。&lt;/p&gt;
@@ -42,18 +42,18 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>https://example.com/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Friends</title>
-        <link>https://example.com/links/</link>
+        <link>http://localhost:1313/links/</link>
         <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/links/</guid>
+        <guid>http://localhost:1313/links/</guid>
         <description>&lt;style&gt;
 .article-header {
     display: none;
@@ -68,10 +68,18 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://example.com/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>收藏</title>
+        <link>http://localhost:1313/%E6%94%B6%E8%97%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E6%94%B6%E8%97%8F/</guid>
         <description></description>
         </item>
         
