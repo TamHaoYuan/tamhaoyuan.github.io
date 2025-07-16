@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on yiyuan的博客</title>
+        <link>https://example.com/page/</link>
+        <description>Recent content in Pages on yiyuan的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于</title>
+        <link>https://example.com/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;
+&lt;p&gt;我是&lt;a class=&#34;link&#34; href=&#34;https://github.com/yiyuan114514&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一元钱&lt;/a&gt;，一名热爱编程的学生。&lt;/p&gt;
+&lt;h2 id=&#34;联系方式&#34;&gt;联系方式
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;邮箱：&lt;a class=&#34;link&#34; href=&#34;mailto:yiyuan114514@outlook.com&#34; &gt;yiyuan114514@outlook.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://example.com/archives/</link>
+        <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Friends</title>
+        <link>https://example.com/links/</link>
+        <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/links/</guid>
+        <description>&lt;style&gt;
+.article-header {
+    display: none;
+  }
+.article-footer {
+	display: none;
+  }
+
+&lt;/style&gt;
+&lt;p&gt;交换友链&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://example.com/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
