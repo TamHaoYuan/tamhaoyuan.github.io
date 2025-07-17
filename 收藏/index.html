@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://TamHaoYuan.github.io/%E6%94%B6%E8%97%8F/'>
 
-<link rel="stylesheet" href="/scss/style.min.5d7d5b35824101df7b34ce78ec5a3222cf1b82cd9ed6a4c38757dbef46a1f334.css"><meta property='og:title' content="收藏">
+<link rel="stylesheet" href="/scss/style.min.fe7528747bb0c573dc73e6bbdcddf028552288cc460a2063fed1717e45e833c0.css"><meta property='og:title' content="收藏">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://TamHaoYuan.github.io/%E6%94%B6%E8%97%8F/'>
 <meta property='og:site_name' content='yiyuan的博客'>
@@ -34,8 +34,6 @@
 
 
 
-
-<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 
     </head>
     <body class="
@@ -537,7 +535,12 @@ var days = s2.getTime() - s1.getTime();
 var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
 document.getElementById('days').innerHTML = number_of_days;
 </script>
-    
+   
+<section class="running-time">
+本博客已稳定运行
+<span id="runningdays" class="running-days"></span>
+</section>
+ 
 </footer>
 
 
@@ -711,6 +714,20 @@ document.getElementById('days').innerHTML = number_of_days;
     z-index: -1;
   }
 </style>
+
+<script>
+    let s1 = '2023-3-18'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
+</script>
 
 
 
