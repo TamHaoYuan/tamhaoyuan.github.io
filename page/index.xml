@@ -7,20 +7,63 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://TamHaoYuan.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>关于</title>
-        <link>https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <title>关于我</title>
+        <link>https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;h2 id=&#34;关于我&#34;&gt;&lt;a href=&#34;#%e5%85%b3%e4%ba%8e%e6%88%91&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;关于我
+        <guid>https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <description>&lt;hr&gt;
+&lt;h2 id=&#34;关于我&#34;&gt;&lt;a href=&#34;#%e5%85%b3%e4%ba%8e%e6%88%91&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;关于我
 &lt;/h2&gt;
-&lt;p&gt;我是&lt;a class=&#34;link&#34; href=&#34;https://github.com/yiyuan114514&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;一元钱&lt;/a&gt;，一名热爱编程的学生。&lt;/p&gt;
-&lt;h2 id=&#34;联系方式&#34;&gt;&lt;a href=&#34;#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;联系方式
-&lt;/h2&gt;
+&lt;p&gt;很高兴认识你！&lt;br&gt;
+我是一名居住在大湾区一个破烂小县城的中学生&lt;br&gt;
+你可以叫我yiyuan&lt;br&gt;
+（至于为什么会有这个名字，是因为别人起的，久而久之就习惯了）
+
+&lt;div class=&#34;notice notice-note&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#436170&#34;&gt;&lt;path d=&#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;ACGN爱好者，成分超级复杂&lt;br&gt;
+喜欢各种与计算机有关的东西
+喜欢折腾关于科技的任何事物&lt;br&gt;
+曾经混iOS越狱圈、Android刷机圈&lt;br&gt;
+学过一点点（真的只有一点点）Python和C++，拿过几个没用的奖项&lt;/p&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;开发环境&#34;&gt;&lt;a href=&#34;#%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;开发环境
+&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;邮箱：&lt;a class=&#34;link&#34; href=&#34;mailto:yiyuan114514@outlook.com&#34; &gt;yiyuan114514@outlook.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows 11&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ubuntu 22.04&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Android 14&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;项目&#34;&gt;&lt;a href=&#34;#%e9%a1%b9%e7%9b%ae&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;项目
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 基于wxpython的计算器
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 前端开发
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 页面布局&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 交互功能&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 响应式适配&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 后端开发
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 数据库设计&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; API 开发&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 性能优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;misc&#34;&gt;&lt;a href=&#34;#misc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Misc
+&lt;/h3&gt;
 </description>
         </item>
         <item>
