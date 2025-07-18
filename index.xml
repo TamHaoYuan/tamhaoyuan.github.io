@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>yiyuan</title>
-        <link>http://localhost:1313/</link>
+        <link>https://TamHaoYuan.github.io/</link>
         <description>Recent content on yiyuan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Wed, 16 Jul 2025 12:45:56 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 16 Jul 2025 12:45:56 +0800</lastBuildDate><atom:link href="https://TamHaoYuan.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于使用hugo搭建网站时遇到的问题</title>
-        <link>http://localhost:1313/2025/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <link>https://TamHaoYuan.github.io/2025/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Wed, 16 Jul 2025 12:45:56 +0800</pubDate>
         
-        <guid>http://localhost:1313/2025/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <guid>https://TamHaoYuan.github.io/2025/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>&lt;h1 id=&#34;hugo问题&#34;&gt;&lt;a href=&#34;#hugo%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;hugo问题
 &lt;/h1&gt;
 &lt;h2 id=&#34;1-使用windowslinux包管理器下载过慢的问题&#34;&gt;&lt;a href=&#34;#1-%e4%bd%bf%e7%94%a8windowslinux%e5%8c%85%e7%ae%a1%e7%90%86%e5%99%a8%e4%b8%8b%e8%bd%bd%e8%bf%87%e6%85%a2%e7%9a%84%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;1. 使用windows/linux包管理器下载过慢的问题
@@ -125,10 +125,10 @@ ssh-add ~/.ssh/github_auth
         </item>
         <item>
         <title>关于我</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+        <link>https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <guid>https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
         <description>&lt;hr&gt;
 &lt;h2 id=&#34;关于我&#34;&gt;&lt;a href=&#34;#%e5%85%b3%e4%ba%8e%e6%88%91&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;关于我
 &lt;/h2&gt;
@@ -146,7 +146,9 @@ ssh-add ~/.ssh/github_auth
 &lt;/p&gt;
 &lt;h3 id=&#34;开发环境&#34;&gt;&lt;a href=&#34;#%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;开发环境
 &lt;/h3&gt;
-&lt;ul&gt;
+
+&lt;div class=&#34;notice notice-note&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#436170&#34;&gt;&lt;path d=&#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Windows 11&lt;/p&gt;
 &lt;/li&gt;
@@ -156,7 +158,8 @@ ssh-add ~/.ssh/github_auth
 &lt;li&gt;
 &lt;p&gt;Android 14&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
 &lt;h3 id=&#34;项目&#34;&gt;&lt;a href=&#34;#%e9%a1%b9%e7%9b%ae&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;项目
 &lt;/h3&gt;
 &lt;ul&gt;
@@ -185,10 +188,10 @@ ssh-add ~/.ssh/github_auth
         </item>
         <item>
         <title>建站通告</title>
-        <link>http://localhost:1313/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</link>
+        <link>https://TamHaoYuan.github.io/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</link>
         <pubDate>Tue, 15 Jul 2025 18:00:52 +0800</pubDate>
         
-        <guid>http://localhost:1313/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</guid>
+        <guid>https://TamHaoYuan.github.io/2025/%E5%BB%BA%E7%AB%99%E9%80%9A%E5%91%8A/</guid>
         <description>&lt;p&gt;本博客记录了我在学习编程、计算机方面的笔记，以及一些个人感悟。&lt;/p&gt;
 &lt;h3 id=&#34;样式测试&#34;&gt;&lt;a href=&#34;#%e6%a0%b7%e5%bc%8f%e6%b5%8b%e8%af%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;样式测试
 &lt;/h3&gt;
@@ -632,18 +635,18 @@ ssh-add ~/.ssh/github_auth
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://TamHaoYuan.github.io/archives/</link>
         <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://TamHaoYuan.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Friends</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://TamHaoYuan.github.io/links/</link>
         <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://TamHaoYuan.github.io/links/</guid>
         <description>&lt;style&gt;
 .article-header {
     display: none;
@@ -657,20 +660,33 @@ ssh-add ~/.ssh/github_auth
 </description>
         </item>
         <item>
-        <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <title>link</title>
+        <link>https://TamHaoYuan.github.io/link/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://TamHaoYuan.github.io/link/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://tamhaoyuan.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://tamhaoyuan-github-io.pages.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;cloudflare&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://TamHaoYuan.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://TamHaoYuan.github.io/search/</guid>
         <description></description>
         </item>
         <item>
         <title>收藏</title>
-        <link>http://localhost:1313/%E6%94%B6%E8%97%8F/</link>
+        <link>https://TamHaoYuan.github.io/%E6%94%B6%E8%97%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E6%94%B6%E8%97%8F/</guid>
-        <description></description>
+        <guid>https://TamHaoYuan.github.io/%E6%94%B6%E8%97%8F/</guid>
+        <description>&lt;hr&gt;
+</description>
         </item>
         
     </channel>
