@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>日常 on yiyuan</title>
-        <link>https://TamHaoYuan.github.io/categories/%E6%97%A5%E5%B8%B8/</link>
+        <link>http://localhost:1313/categories/%E6%97%A5%E5%B8%B8/</link>
         <description>Recent content in 日常 on yiyuan</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-CN</language><atom:link href="https://TamHaoYuan.github.io/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+        <language>zh-CN</language><atom:link href="http://localhost:1313/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
