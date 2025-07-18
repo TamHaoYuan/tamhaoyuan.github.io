@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="关于一元钱">
 <title>关于我</title>
 
-<link rel='canonical' href='http://localhost:1313/%E5%85%B3%E4%BA%8E%E6%88%91/'>
+<link rel='canonical' href='https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/'>
 
 <link rel="stylesheet" href="/scss/style.min.2d8326d250b02868e3ecfd8961fe6ceb87e06cd6b950b46746c04acaea5ad3d3.css"><meta property='og:title' content="关于我">
 <meta property='og:description' content="关于一元钱">
-<meta property='og:url' content='http://localhost:1313/%E5%85%B3%E4%BA%8E%E6%88%91/'>
+<meta property='og:url' content='https://TamHaoYuan.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/'>
 <meta property='og:site_name' content='yiyuan'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-08-16T00:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-16T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="关于我">
 <meta name="twitter:description" content="关于一元钱"><style>
     :root {
@@ -64,7 +64,7 @@
 <div class="container main-container flex on-phone--column extended">
     
 <div id="article-toolbar">
-    <a href="http://localhost:1313/" class="back-home">
+    <a href="https://TamHaoYuan.github.io/" class="back-home">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <polyline points="15 6 9 12 15 18" />
@@ -530,19 +530,7 @@
 </svg>
         <span>CC BY-NC-ND</span>
     </section>
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 Aug 16, 2023 00:00 UTC
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -556,23 +544,55 @@
      
      
         
-    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
-<div id="waline" class="waline-container"></div>
-<style>
-    .waline-container {
-        background-color: var(--card-background);
-        border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
-        --waline-font-size: var(--article-font-size);
+    <script
+    src="https://giscus.app/client.js"
+    data-repo=""
+    data-repo-id=""
+    data-category=""
+    data-category-id=""
+    data-mapping="title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-cn"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
     }
-    .waline-container .wl-count {
-        color: var(--card-text-color-main);
-    }
-</style><script>
-    
-    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://testingcf.jsdelivr.net/gh/walinejs/emojis/weibo"],"locale":{"admin":"Admin","placeholder":null},"requiredMeta":["name","email","url"]});
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
 </script>
 
     
@@ -725,7 +745,7 @@ document.getElementById('days').innerHTML = number_of_days;
                 src="https://testingcf.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.4ca97114ceb107e1351855c035d5858c56d114b0c6fe4fe2d3012aa2f6cbb140.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0bd16652234b138336e9a2f765908650df99e335b845d48acb8f49e6e0626a8f.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

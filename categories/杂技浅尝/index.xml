@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>杂技浅尝 on yiyuan</title>
+        <link>https://TamHaoYuan.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</link>
+        <description>Recent content in 杂技浅尝 on yiyuan</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 16 Jul 2025 12:45:56 +0800</lastBuildDate><atom:link href="https://TamHaoYuan.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于使用hugo搭建网站时遇到的问题</title>
+        <link>https://TamHaoYuan.github.io/2025/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Wed, 16 Jul 2025 12:45:56 +0800</pubDate>
+        
+        <guid>https://TamHaoYuan.github.io/2025/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>&lt;h1 id=&#34;hugo问题&#34;&gt;&lt;a href=&#34;#hugo%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;hugo问题
+&lt;/h1&gt;
+&lt;h2 id=&#34;1-使用windowslinux包管理器下载过慢的问题&#34;&gt;&lt;a href=&#34;#1-%e4%bd%bf%e7%94%a8windowslinux%e5%8c%85%e7%ae%a1%e7%90%86%e5%99%a8%e4%b8%8b%e8%bd%bd%e8%bf%87%e6%85%a2%e7%9a%84%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;1. 使用windows/linux包管理器下载过慢的问题
+&lt;/h2&gt;
+&lt;h3 id=&#34;解决方法更换国内源&#34;&gt;&lt;a href=&#34;#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95%e6%9b%b4%e6%8d%a2%e5%9b%bd%e5%86%85%e6%ba%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;解决方法：更换国内源
+&lt;/h3&gt;
+&lt;h2 id=&#34;2-使用stack主题时hugo目录没有相应文件&#34;&gt;&lt;a href=&#34;#2-%e4%bd%bf%e7%94%a8stack%e4%b8%bb%e9%a2%98%e6%97%b6hugo%e7%9b%ae%e5%bd%95%e6%b2%a1%e6%9c%89%e7%9b%b8%e5%ba%94%e6%96%87%e4%bb%b6&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;2. 使用Stack主题时hugo目录没有相应文件
+&lt;/h2&gt;
+&lt;h3 id=&#34;原因hugo版本过新&#34;&gt;&lt;a href=&#34;#%e5%8e%9f%e5%9b%a0hugo%e7%89%88%e6%9c%ac%e8%bf%87%e6%96%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;原因：hugo版本过新
+&lt;/h3&gt;
+&lt;h3 id=&#34;解决方法更换新版主题&#34;&gt;&lt;a href=&#34;#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95%e6%9b%b4%e6%8d%a2%e6%96%b0%e7%89%88%e4%b8%bb%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;解决方法：更换新版主题
+&lt;/h3&gt;
+&lt;h2 id=&#34;3-liunx环境下报错-error-art-x-deyamlzone-language-tag-is-not-well-formed&#34;&gt;&lt;a href=&#34;#3-liunx%e7%8e%af%e5%a2%83%e4%b8%8b%e6%8a%a5%e9%94%99-error-art-x-deyamlzone-language-tag-is-not-well-formed&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;3. liunx环境下报错 &lt;code&gt;Error: &amp;quot;art-x-de.yaml:Zone&amp;quot;: language: tag is not well-formed&lt;/code&gt;
+&lt;/h2&gt;
+&lt;p&gt;解决方法：重新安装hugo&lt;/p&gt;
+&lt;h1 id=&#34;github部署问题&#34;&gt;&lt;a href=&#34;#github%e9%83%a8%e7%bd%b2%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;github部署问题
+&lt;/h1&gt;
+&lt;h2 id=&#34;1-没有开启ssl&#34;&gt;&lt;a href=&#34;#1-%e6%b2%a1%e6%9c%89%e5%bc%80%e5%90%afssl&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;1. 没有开启SSL
+&lt;/h2&gt;
+&lt;h3 id=&#34;报错代码&#34;&gt;&lt;a href=&#34;#%e6%8a%a5%e9%94%99%e4%bb%a3%e7%a0%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;报错代码：
+&lt;/h3&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;&lt;a href=&#34;#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;解决方法：
+&lt;/h2&gt;
+&lt;h3 id=&#34;开启ssl代码如下&#34;&gt;&lt;a href=&#34;#%e5%bc%80%e5%90%afssl%e4%bb%a3%e7%a0%81%e5%a6%82%e4%b8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;开启SSL，代码如下：
+&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh-keygen -t ed25519 -C &amp;#34;&amp;lt;your github email&amp;gt;&amp;#34;
+# -C后面的是自定义的密钥注释/标签，这里一般输入自己的邮箱
+# -----------------------------------------------
+# 运行上述命令，会询问你是否自定义密钥名字/路径，以及是否需要给该密钥添加密码，敲回车是跳过
+# Generating public/private ed25519 key pair.
+# Enter file in which to save the key (/home/xxx/.ssh/id_ed25519): github_auth
+# Enter passphrase (empty for no passphrase): 
+# Enter same passphrase again: 
+# Your identification has been saved in github_auth.
+# Your public key has been saved in github_auth.pub.
+# The key fingerprint is: xxx
+# The key&amp;#39;s randomart image is: xxx
+# -----------------------------------------------
+# ed25519是目前最安全、加解密速度最快的key类型。
+# 但有些旧版本的SSH还不支持ed25519算法，这时候可以用rsa算法。
+# 因此，有ed25519就用ed25519，没有就用rsa。
+ssh-keygen -t rsa -b 4096 -C &amp;#34;your github email&amp;#34;
+eval &amp;#34;$(ssh-agent -s)&amp;#34;
+# 输出：Agent pid 59566
+ssh-add ~/.ssh/github_auth
+# 输出：Identity added: github_auth (xxxx)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;生成SSH密钥后，&lt;strong&gt;复制公钥内容&lt;/strong&gt;到自己的Github账户中。具体地，&lt;strong&gt;点击Github右上角账户图标→Settings→SSH and GPG keys→New SSH key，在Key一栏粘贴公钥内容，在Title一栏设定这个SSH密钥的标识&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat ~/.ssh/github_auth.pub
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 把终端输出的内容复制到Github账户中&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://pica.zhimg.com/v2-1a2430dc5fa0d1869328fd068e1e404c_1440w.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/v2-c1bf8b83515616ba81f5c09bbc3e1729_1440w.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;&#34;&gt;&lt;a href=&#34;#&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;执行完上述两步操作后，正常情况下已经配置成功了，此时可以验证一下：&lt;/p&gt;
+&lt;h2 id=&#34;2-github部署后无法找到网站问题&#34;&gt;&lt;a href=&#34;#2-github%e9%83%a8%e7%bd%b2%e5%90%8e%e6%97%a0%e6%b3%95%e6%89%be%e5%88%b0%e7%bd%91%e7%ab%99%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;2. github部署后无法找到网站问题：
+&lt;/h2&gt;
+&lt;p&gt;在仓库setting &amp;gt; page &amp;gt;中&lt;br&gt;
+将分支改为main&lt;/p&gt;
+&lt;h2 id=&#34;&#34;&gt;&lt;a href=&#34;#&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h1 id=&#34;参考文章&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e8%80%83%e6%96%87%e7%ab%a0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参考文章：
+&lt;/h1&gt;
+&lt;p&gt;1.&lt;a class=&#34;link&#34; href=&#34;https://www.linuxmi.com/ubuntu-22-04-apt-sources-list.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ubuntu 22.04 更换国内源 清华源 阿里源 中科大源 163源 - Linux迷&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.[chocolatey 在国内使用_古承风-GitCode 开源社区](&lt;a class=&#34;link&#34; href=&#34;https://gitcode.csdn.net/66d1cf14e2ce0119e0a18ec0.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chocolatey 在国内使用_古承风-GitCode 开源社区&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;3.&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/343055339&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/628727065&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;如何开启githubSSH&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;建站参考文章&#34;&gt;&lt;a href=&#34;#%e5%bb%ba%e7%ab%99%e5%8f%82%e8%80%83%e6%96%87%e7%ab%a0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;建站参考文章：
+&lt;/h1&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/post/hugo-shortcodes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一些 Hugo 短代码 | Naive Koala&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog2.pillar.fun/p/hugostackheatmap%E6%98%8E%E6%9A%97%E4%B8%BB%E9%A2%98%E9%80%82%E9%85%8D/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HugoStackHeatmap明暗主题适配&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog2.pillar.fun/p/hugostack%E8%A3%85%E4%BF%AE/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HugoStack装修&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://lqxhub.github.io/posts/a660c9b1/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://lqxhub.github.io/posts/a660c9b1/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.reincarnatey.net/2023/build-hugo-blog-with-stack-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;建站技术 | 使用 Hugo + Stack 简单搭建一个博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hugo-ap0.pages.dev/p/hugo-stack-%E4%B8%BB%E9%A2%98%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hugo-ap0.pages.dev/p/hugo-stack-%E4%B8%BB%E9%A2%98%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://sazerac-kk.github.io/p/%E6%95%99%E7%A8%8Bhugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://sazerac-kk.github.io/p/%E6%95%99%E7%A8%8Bhugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://liuhouliang.com/post/hugo_theme/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用hugo stack主题快速搭建博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://vofficial233.com/archives/deploy-my-hugo-blog#%E8%A7%A3%E5%86%B3%E9%83%A8%E5%88%86%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%9C%A8%E5%A4%A7%E9%99%86%E5%9C%B0%E5%8C%BA%E8%AE%BF%E9%97%AE%E8%BF%87%E6%85%A2%E9%97%AE%E9%A2%98&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://vofficial233.com/archives/deploy-my-hugo-blog#%E8%A7%A3%E5%86%B3%E9%83%A8%E5%88%86%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%9C%A8%E5%A4%A7%E9%99%86%E5%9C%B0%E5%8C%BA%E8%AE%BF%E9%97%AE%E8%BF%87%E6%85%A2%E9%97%AE%E9%A2%98&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;&#34;&gt;&lt;a href=&#34;#&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
