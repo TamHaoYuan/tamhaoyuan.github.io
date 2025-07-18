@@ -656,7 +656,7 @@ ssh-add ~/.ssh/github_auth
     display: none;
   }
 .article-footer {
-	display: none;
+    display: none;
   }
 
 &lt;/style&gt;

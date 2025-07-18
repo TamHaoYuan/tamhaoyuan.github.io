@@ -92,7 +92,7 @@
     display: none;
   }
 .article-footer {
-	display: none;
+    display: none;
   }
 
 &lt;/style&gt;
