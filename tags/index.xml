@@ -5,6 +5,15 @@
         <link>https://TamHaoYuan.github.io/tags/</link>
         <description>Recent content in Tags on yiyuan</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-CN</language><atom:link href="https://TamHaoYuan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>zh-CN</language>
+        <lastBuildDate>Wed, 16 Jul 2025 12:45:56 +0800</lastBuildDate><atom:link href="https://TamHaoYuan.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo</title>
+        <link>https://TamHaoYuan.github.io/tags/hugo/</link>
+        <pubDate>Wed, 16 Jul 2025 12:45:56 +0800</pubDate>
+        
+        <guid>https://TamHaoYuan.github.io/tags/hugo/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>
