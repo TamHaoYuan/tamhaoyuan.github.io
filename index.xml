@@ -184,6 +184,10 @@ ssh-add ~/.ssh/github_auth
 &lt;/ul&gt;
 &lt;h3 id=&#34;misc&#34;&gt;&lt;a href=&#34;#misc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Misc
 &lt;/h3&gt;
+
+&lt;div class=&#34;notice notice-note&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#436170&#34;&gt;&lt;path d=&#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/div&gt;
+
 </description>
         </item>
         <item>
